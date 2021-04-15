@@ -1,0 +1,62 @@
+.main-section {
+  display: flex;
+  /* stretches the items to full HEIGHT of the container */
+  align-items: stretch;
+  justify-content: space-between;
+  /* spreads the container to the full height length of the page */
+  flex-grow: 1;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+
+.main-section .img-wrapper {
+  flex-grow: 1;
+  flex-direction: column;
+  display: flex;
+  align-items: stretch;
+  justify-content: flex-end;
+}
+
+.main-section .lady-image {
+  background-image: url(images/girl-home-page.png);
+  flex-grow: 1;
+  max-height: 90vh;
+  min-width: 60vw;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.main-section .call-to-action {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  /* aligns text center of the container */
+  align-self: center;
+  padding-left: 100px;
+}
+
+@media (max-width: 768px) {
+  .main-section .call-to-action {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .main-section .img-wrapper {
+    display: none;
+  }
+
+  /* centers the text feel the music */
+  .main-section {
+    justify-content: center;
+  }
+}
+@media (max-width: 1300px) {
+  .main-section .lady-image {
+    min-width: 45vw;
+  }
+}
