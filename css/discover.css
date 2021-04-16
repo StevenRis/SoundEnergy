@@ -5,40 +5,23 @@
 
 .disc-section {
   display: flex;
-  /* stretches the items to full HEIGHT of the container */
-  align-items: stretch;
-  justify-content: space-between;
-  /* spreads the container to the full height length of the page */
   flex-grow: 1;
 }
 
-.disc-section .lady-image {
+.lady-image {
   background-image: url(images/girl3.png);
   flex-grow: 1;
-  max-height: 60vh;
+  max-height: 70vh;
   min-width: 40vw;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: bottom left;
-  /* animation: ladymove 1.5s;
-  animation-timing-function: ease-in;
-  position: relative; */
+  background-position: bottom;
 }
-
-/* @keyframes ladymove {
-  from {
-    left: 500px;
-  }
-  to {
-    left: 0px;
-  }
-} */
 
 .disc-section .img-wrapper {
   flex-grow: 1;
   flex-direction: column;
   display: flex;
-  align-items: stretch;
   justify-content: flex-end;
 }
 
@@ -46,28 +29,13 @@
   display: flex;
   flex-grow: 1;
   flex-direction: column;
-  /* align-items: center; */
   margin: 1rem;
-  /* aligns text center of the container */
   align-self: center;
-  /* animation: move 1s;
-  animation-timing-function: ease-out;
-  position: relative; */
+  margin-bottom: 6rem;
 }
-
-/* @keyframes move {
-  from {
-    right: 850px;
-  }
-  to {
-    right: 0px;
-  }
-} */
 
 .icons {
   display: flex;
-  justify-content: center;
-  /* border: 1px solid black; */
 }
 
 .icon:hover {
@@ -119,8 +87,7 @@
   .icon {
     display: flex;
     flex-direction: column;
-    padding: 3rem;
-    max-width: 100%;
+    width: 100%;
   }
 
   .icon img {

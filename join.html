@@ -9,69 +9,70 @@
     <title>SoundEnergy - Join</title>
   </head>
   <body>
-    <div class="container full-height-grow">
-      <header class="main-header">
-        <a href="index.html" class="brand-logo">
-          <img src="css/images/logo2.png" alt="" />
-          <div class="brand-logo-name"><span>Sound</span>Energy</div>
-        </a>
-
-        <nav class="main-nav">
-          <ul>
-            <li><a href="discover.html">Discover</a></li>
-            <li><a href="join.html">Join</a></li>
-          </ul>
-          <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
-            >&#9776;</span
-          >
-        </nav>
-        <div id="mySidenav" class="sidenav">
-          <a class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="index.html">Home</a>
-          <a href="discover.html">Discover</a>
-          <a href="join.html">Join</a>
-        </div>
-      </header>
-
-      <section class="join-main-section">
-        <h1 class="join-text">
-          Join the
-          <span class="accent-text">fun.</span>
-        </h1>
-
-        <!-------FORM VALIDATION------->
-        <form class="join-form" action="/joined.html">
-          <div class="input-group">
-            <label>Name:</label>
-            <input type="text" required />
+    <div class="join-container full-height-grow">
+      <div class="width">
+        <header class="main-header">
+          <a href="index.html" class="brand-logo">
+            <img src="css/images/logo2.png" alt="" />
+            <div class="brand-logo-name"><span>Sound</span>Energy</div>
+          </a>
+          <nav class="main-nav">
+            <ul>
+              <li><a href="discover.html">Discover</a></li>
+              <li><a href="join.html">Join</a></li>
+            </ul>
+            <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+              >&#9776;</span
+            >
+          </nav>
+          <div id="mySidenav" class="sidenav">
+            <a class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Home</a>
+            <a href="discover.html">Discover</a>
+            <a href="join.html">Join</a>
           </div>
-          <div class="input-group">
-            <label>Email:</label>
-            <input type="email" required />
-          </div>
-          <div class="input-group">
-            <label>Password:</label>
-            <input type="password" required />
-          </div>
-          <div class="input-group">
-            <button type="submit" value="Submit" class="btn">Join Now</button>
-          </div>
-        </form>
-      </section>
+        </header>
+        <section class="join-main-section">
+          <h1 class="join-text">
+            Join the
+            <span class="accent-text">fun.</span>
+          </h1>
+          <!-------FORM VALIDATION------->
+          <form class="join-form" action="/joined.html">
+            <div class="input-group">
+              <label>Name:</label>
+              <input type="text" required />
+            </div>
+            <div class="input-group">
+              <label>Email:</label>
+              <input type="email" required />
+            </div>
+            <div class="input-group">
+              <label>Password:</label>
+              <input type="password" required />
+            </div>
+            <div class="input-group">
+              <button type="submit" value="Submit" class="btn">Join Now</button>
+            </div>
+          </form>
+        </section>
+      </div>
 
       <div class="footer">
-        <div>
-          <a href="#">About us</a>
-          <a href="#">Contact</a>
-        </div>
+        <div class="footer-width">
+          <div>
+            <a href="#">About us</a>
+            <a href="#">Contact</a>
+          </div>
 
-        <div>
-          <a href="https://twitter.com/?lang=pl" class="social-link">
-            <img src="css/images/twitter.svg" />
-          </a>
-          <a href="https://www.facebook.com/" class="social-link">
-            <img src="css/images/facebook.svg" />
-          </a>
+          <div>
+            <a href="https://twitter.com/?lang=pl" class="social-link">
+              <img src="css/images/twitter.svg" />
+            </a>
+            <a href="https://www.facebook.com/" class="social-link">
+              <img src="css/images/facebook.svg" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
