@@ -1,5 +1,5 @@
 /* google fonts import */
-@import url("https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;700&display=swap');
 
 /* box-sizing property*/
 *,
@@ -12,7 +12,7 @@ body {
   padding: 0;
   margin: 0;
   background-image: linear-gradient(133deg, #d8d8d8, #000000);
-  font-family: "Crimson Pro", serif;
+  font-family: 'Crimson Pro', serif;
   font-size: 1.2rem;
   color: #b92725;
   min-height: 100vh;
@@ -163,9 +163,9 @@ body {
 }
 
 @media (min-width: 650px) {
-.join-container {
-  height: 100vh;
-}
+  .join-container {
+    height: 100vh;
+  }
 }
 
 .title {
@@ -176,9 +176,9 @@ body {
   margin-bottom: 2rem;
 }
 
-.title span {
+/* .title span {
   color
-}
+} */
 
 .gradient-text {
   background-color: #ca4246;
@@ -241,7 +241,7 @@ body {
   outline: none;
   border: none;
   cursor: pointer;
-  font-family: "Crimson Pro", serif;
+  font-family: 'Crimson Pro', serif;
 }
 
 .btn:hover {
@@ -258,9 +258,6 @@ body {
 }
 
 @media (max-width: 650px) {
-
-
-
   .main-header,
   .main-footer {
     display: flex;
@@ -310,6 +307,10 @@ body {
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
+}
+
+.sidenav.open {
+  width: 250px;
 }
 
 .sidenav a {
